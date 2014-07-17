@@ -1,7 +1,7 @@
 <?php 
 //Connect to the database
-$connection= mysql_connect("localhost", "mergenc", "burak2263");
-mysql_select_db("phpguestbook");
+$connection= mysql_connect("localhost", "db_usr_name", "db_pass");
+mysql_select_db("db_name");
 //if txt_name is in action -->
 $name = $_POST["txt_name"];
 $len = strlen($name);//check the length of the $name
